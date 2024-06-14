@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Initialize the model
-unmasker = pipeline('text-classification', model='priyabrat/AI.or.Human.text.classification', truncation=True, padding=True, max_length=50, add_special_tokens=True)
+unmasker = pipeline('text-classification', model='priyabrat/New_AI_or_Humantext_categorisation', truncation=True, padding=True, max_length=50, add_special_tokens=True)
 
 # Function to classify text
 def classify_text(text):
